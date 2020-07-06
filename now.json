@@ -3,7 +3,7 @@
     "name": "buddies tech",
     "builds": [{
         "src": "bt/wsgi.py",
-        "use": "@ardnt/now-python-wsgi",
+        "use": "bt/settings.py",
         "config": { "maxLambdaSize": "100mb" }
     }],
         "routes": [{
