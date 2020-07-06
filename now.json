@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "name": "buddies tech",
+    "builds": [{
+        "src": "bt/wsgi.py",
+        "use": "@ardnt/now-python-wsgi",
+        "config": { "maxLambdaSize": "15mb" }
+    }],
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "bt/wsgi.py"
+    }]
+}
