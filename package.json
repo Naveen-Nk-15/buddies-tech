@@ -1,0 +1,11 @@
+{
+  "name": "buddies_tech1-master",
+  "version": "1.0.0",
+  "main": "manage.py",
+  "scripts": {
+    "test": "python manage.py runserver"
+  },
+  "author": "Naveen Nk",
+  "license": "ISC",
+  "description": ""
+}
